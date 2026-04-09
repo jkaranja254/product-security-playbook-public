@@ -27,6 +27,6 @@ Thanks for your interest in improving this repository.
 ## Before You Submit
 
 - confirm the change is public-safe
-- confirm there are no internal workflow artifacts such as `.codex` or `AGENTS.md`
+- confirm there are no internal workflow artifacts or sensitive data
 - confirm the content does not suggest it was AI-generated
 - review formatting and link correctness
