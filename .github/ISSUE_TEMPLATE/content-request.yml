@@ -1,0 +1,27 @@
+name: Content request
+description: Propose a new focused artifact or topic for the repository.
+title: "[content] "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Requested topic
+      placeholder: e.g. SaaS authorization boundaries or AI feature approval gates
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is this for?
+      description: Describe the intended audience or use case.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why add it?
+      description: Explain how this would improve the repository.
+    validations:
+      required: true

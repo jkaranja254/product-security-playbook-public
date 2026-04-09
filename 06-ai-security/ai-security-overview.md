@@ -39,3 +39,9 @@ This document outlines security considerations for systems that integrate AI mod
 
 - [api security](../03-architecture/api-security.md)
 - [threat model diagram](../05-threat-modeling/threat-model-diagram.md)
+
+## Companion Project
+
+For a runnable example of AI feature security controls, threat artifacts, and review outputs, see the [AI Feature Security Review Kit](https://github.com/jkaranja254/ai-feature-security-review-kit).
+
+That companion repository focuses on implementation and demonstration, while this document focuses on design principles and operating considerations.

@@ -1,0 +1,25 @@
+name: Documentation improvement
+description: Suggest a focused improvement to an existing document.
+title: "[docs] "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What should change?
+      description: Describe the specific section or document that needs improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why does it matter?
+      description: Explain how the change improves clarity, accuracy, or usefulness.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Suggested direction
+      description: Optional wording, references, or examples to consider.

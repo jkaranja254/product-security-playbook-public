@@ -4,11 +4,13 @@
 
 This repository presents a structured product security playbook for modern cloud-based systems.
 
-It demonstrates how security is designed, implemented, and communicated across architecture, identity, delivery pipelines, and customer interactions.
+It shows how security can be designed, implemented, and communicated across architecture, identity, delivery pipelines, threat modeling, and customer trust.
 
-It focuses on how security is designed, communicated, and enforced across architecture, identity, delivery pipelines, and customer interactions.
+The goal is to make security thinking easy to scan, practical to apply, and useful across engineering, security, and leadership conversations.
 
-The goal is to show how security supports product reliability, customer trust, and operational scale.
+This repository is documentation-first.
+
+For a runnable companion project focused on securing AI-enabled product features, see the [AI Feature Security Review Kit](https://github.com/jkaranja254/ai-feature-security-review-kit).
 
 ---
 
@@ -20,6 +22,15 @@ The goal is to show how security supports product reliability, customer trust, a
 - CI/CD and delivery pipeline controls
 - software supply chain security
 - customer-facing security communication
+
+---
+
+## Why It Matters
+
+- shows how security decisions support product reliability and customer trust
+- demonstrates communication that works for technical and non-technical audiences
+- provides reusable examples for architecture, trust, and delivery discussions
+- complements a runnable AI security demo with the design and governance layer behind it
 
 ---
 
@@ -83,6 +94,13 @@ This example shows how customer-facing security information is structured across
 This repository focuses on architecture, design, and communication.
 
 It does not focus on tools, vulnerability scanning outputs, or vendor-specific implementations.
+
+---
+
+## Related Projects
+
+- [AI Feature Security Review Kit](https://github.com/jkaranja254/ai-feature-security-review-kit)  
+  Runnable companion project showing how AI feature security controls, review artifacts, and trust materials can be applied in practice.
 
 ---
 
